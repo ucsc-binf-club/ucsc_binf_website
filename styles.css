@@ -1,0 +1,345 @@
+
+body
+{
+    overflow-x: hidden; 
+    background-color: black;
+    /*background-image: linear-gradient(to left, slateblue, skyblue);*/
+}
+
+
+.navbar{
+    background-color: black !important;
+    opacity:.9;
+}
+.navbar .navbar-brand{
+    color: white;
+}
+.navbar .navbar-brand:hover{
+    color: magenta;
+    transition-duration: 1s;
+}
+.navbar .navbar-nav li a{
+    color: springgreen !important;
+}
+.navbar .navbar-nav li a:hover{
+    background-color:white;
+    color:black !important;
+    transition-duration: 1s;
+}
+.navbar .nav-item .dropdown-menu{
+    background-color: black !important;
+}
+.navbar .nav-item .dropdown-menu .dropdown-item{
+    color: magenta !important;
+}
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+    color: white !important;
+    background-color:magenta;
+    opacity:.5;
+}
+.navbar-toggler{
+    background-color:white;
+    opacity: 1;
+}
+
+
+
+.text-center{
+    margin-top:230px !important;
+    color: white;
+    margin:20px;
+    min-width: 300px;
+}
+#paral1{
+    margin-top: 0px !important;
+    min-height: 800px;
+    min-width: 300px;
+}
+#paralh1{
+    font-size:50px ;
+}
+#paralBh1{
+    margin-top: 0%;
+    font-size:60px;
+    min-width: 200px;
+}
+#paralBp{
+    font-size:30px;
+}
+.title{
+    font-size: 40px;
+}
+#paralp{
+    font-size: 40px;
+}
+.parallax-window {
+    margin-top: 400px;
+    min-height: 600px;
+    min-width: 300px;
+    background: transparent;
+    z-index: 1;
+    margin-bottom: 300px;
+}
+.parallax-windowB {
+    margin-top: 400px;
+    min-height: 700px;
+    min-width: 600px;
+    background: transparent;
+    z-index: 1;
+    margin-bottom: 400px;
+}
+.canvas {
+    min-width: 300px;
+    max-width: 100%;
+    height: -webkit-fill-available;
+    min-height: 400px;
+    background: linear-gradient(rgba(204, 0, 255, 0.5), rgba(0, 0, 255, 0.5), black);
+    background-size: cover;
+    background-position-x: center;
+   }
+.canvasB {
+    min-width: 300px;
+    max-width: 100%;
+    height: -webkit-fill-available;
+    min-height: 100%;
+    background: linear-gradient(black, rgba(0, 0, 255, 0.5), black);
+    background-size: cover;
+    background-position-x: center;
+    margin-top: 0px;
+   }
+.canvasC {
+    width: 100%;
+    height: -webkit-fill-available;
+    min-height: 100%;
+    background: linear-gradient(black, rgba(124, 0, 206, 0.5), black);
+    background-size: cover;
+    background-position-x: center;
+   }
+
+
+
+
+.container{
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    outline-style: solid;
+    outline-color: black;
+    background-color: black;
+    outline-width: 1px;
+}
+.text {
+    min-width: 300px;
+    max-width: 100%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.overlay {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    max-width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: slateblue;
+    border-radius: 25px;
+  }
+ .overlayimg{
+    max-width: 100%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 5%;
+    padding: 10px;
+    border-radius: 25%;
+  }
+
+.box:hover .overlay{
+    opacity: 1;
+}
+.box{
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20%;
+    margin: 50px auto;
+    border-radius: 100%;
+    border-color: white;
+    border-style: solid;
+    border-width:10px;
+    min-width: 300px;
+    max-width: 100%;
+}
+
+
+
+.container-tools{
+    text-align: center;
+}
+
+.text-tools {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin: 5px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    min-width: 350px;
+  }
+.overlay-tools {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 675px;
+    width: 80%;
+    margin: auto auto;
+    margin-top:-100px !important;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: slateblue;
+    border-radius: 25px;
+  }
+ .overlayimg-tools{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 5%;
+    padding: 10px;
+    border-radius: 25%;
+  }
+.box-tools:hover .overlay-tools{
+    opacity: 1;
+}
+.img-tools1{
+    background-size: cover;
+    width: 320px;
+    height: 140px;
+    margin: auto auto;
+    background-image: url("pics/Scanpy.png");
+}
+.img-tools2{
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+    margin: auto auto;
+    border-radius: 20px;
+    background-image: url("pics/blast.png");
+}
+.img-tools3{
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+    margin: auto auto;
+    border-radius: 20px;
+    background-image: url("pics/browser.png");
+}
+
+.col{
+    min-width: 450px;
+    max-width: 100%;
+    min-height:700px;
+}
+
+.fake{
+    min-height:50px !important;
+}
+
+.calendar-container{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.canvas-cal {
+    width: 100%;
+    height: -webkit-fill-available;
+    min-height: 400px;
+    background-size: cover;
+    background-position-x: center;
+    margin:0px auto 300px auto;
+   }
+   body { 
+    animation: fadeInAnimation ease-in-out 1.5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        background-color: rgb(7, 2, 12);
+        opacity: 0; 
+    } 
+    100% { 
+        background-color: none;
+        opacity: 1; 
+     } 
+} 
+
+
+.table{
+    margin:0px auto 300px auto;
+    min-width: 300px;
+    max-width: 1000px;
+    color:springgreen;
+}
+
+tr:first-child{
+    background-color: slateblue;
+}
+
+
+.container-ab{
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    outline-style: solid;
+    outline-color: black;
+    background-color: black;
+    outline-width: 1px;
+}
+.text-ab {
+    min-width: 300px;
+    max-width: 100%;
+    color: white;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 70px;
+    text-align: left;
+  }
+
+.overlay-ab {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1000px;
+    max-width: 100%;
+    background-color: slateblue;
+  }
+ .overlayimg-ab{
+    max-width: 100%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 5%;
+    padding: 10px;
+    border-radius: 25%;
+  }
